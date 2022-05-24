@@ -15,12 +15,16 @@ LINE_HEIGHT = {
     'regular': 1.25,
     'loose': 1.5,
     'compact': 1.15,
+    'zero': 1,
 }
 
 SCALE = {
-    'xxl': 3.25,
-    'xl': 1.75,
-    'l': 1.25,
+    'xxl': 4,
+    'xl': 2,
+    'l': 1.5,
+    # 'xxl': 3,
+    # 'xl': 1.75,
+    # 'l': 1.25,
     'm': 1,
     's': .875,
     'xs': .75,
@@ -35,33 +39,57 @@ SIZE = {
 
 TAGS = {
     'h1': {
-        'font-weight': FONT_WEIGHT['thin'],
-        'scale': SCALE['xl'],
+        'type': 'tag',
+        'font-weight': 'thin',
+        'scale': SCALE['xxl'],
         'line-height': LINE_HEIGHT['compact']
     },
     'h2': {
-        'font-weight': FONT_WEIGHT['bold'],
-        'scale': SCALE['l'],
+        'type': 'tag',
+        'font-weight': 'bold',
+        'scale': SCALE['xl'],
         'line-height': LINE_HEIGHT['regular']
     },
     'h3': {
-        'font-weight': FONT_WEIGHT['bold'],
-        'scale': SCALE['m'],
+        'type': 'tag',
+        'font-weight': 'bold',
+        'scale': SCALE['l'],
         'line-height': LINE_HEIGHT['regular']
     },
     'h4': {
-        'font-weight': FONT_WEIGHT['bold'],
-        'scale': SCALE['s'],
+        'type': 'tag',
+        'font-weight': 'bold',
+        'scale': SCALE['m'],
         'line-height': LINE_HEIGHT['regular']
     },
     'h5': {
-        'font-weight': FONT_WEIGHT['regular'],
+        'type': 'tag',
+        'font-weight': 'regular',
         'scale': SCALE['s'],
         'line-height': LINE_HEIGHT['regular']
     },
     'p': {
-        'font-weight': FONT_WEIGHT['regular'],
+        'type': 'tag',
+        'font-weight': 'regular',
         'scale': SCALE['m'],
         'line-height': LINE_HEIGHT['loose']
-    }
+    },
+    'small': {
+        'type': 'class',
+        'font-weight': 'regular',
+        'scale': SCALE['s'],
+        'line-height': LINE_HEIGHT['loose']
+    },
+    'x-small': {
+        'type': 'class',
+        'font-weight': 'regular',
+        'scale': SCALE['xs'],
+        'line-height': LINE_HEIGHT['loose']
+    },
+    'xx-small': {
+        'type': 'class',
+        'font-weight': 'regular',
+        'scale': SCALE['xxs'],
+        'line-height': LINE_HEIGHT['loose']
+    },
 }

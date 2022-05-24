@@ -1,0 +1,22 @@
+body {
+    font-family: sans-serif;
+}
+
+h1.S {
+    font-size: 56px;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    font-size: 64px;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+}
+h1.L {
+    font-size: 96px;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+}
