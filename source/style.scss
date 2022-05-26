@@ -1,0 +1,14 @@
+@import "settings/util_mixins";
+@import "settings/basic_settings";
+@import "settings/sizes";
+@import "settings/colors";
+@import "settings/typography";
+
+
+body {
+    // margin: 3rem;
+    padding: 3rem;
+    @include mobile {
+        padding: 32px !important;
+    }
+}

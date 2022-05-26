@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/core/static/style.css">
+</head>
+<body>
+    <h1>Seven awesome sizes and basic typographic styles</h1>
+    <p class="text-xl">
+        There are seven sizes: xxs (.5), xs (.75), s (.875), m (1), l (1.5), xl (2), xxl (4). Base size is 16 pixels; everything else builds from the base. Five font weights (thinner, thin, regular, bold, bolder).
+    </p>
+    <p class="text-xl">
+        The basic tags have their own base settings, but can also be used with classes to modify visual size and line-height (font weight is inherited from the defined tag settings to be consistent across all pages/documents).
+    </p>
+
+    <h1>Title: h1 is great for it</h1>
+    <p class="text-l">Large leading paragraph. Lorem ipsum dolor, sit amet consectetur adipisicing elit. In accusamus omnis laborum eveniet, ut excepturi.</p>
+    <h2>Second header, aka h2. Use it for semantic purposes.</h2>
+    <p>Plain paragraph. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione eos numquam perspiciatis consectetur dolorum fugit, excepturi deserunt, assumenda quo explicabo exercitationem qui incidunt non dolore asperiores. Voluptatibus quia ipsum magnam!</p>
+    <p><strong>There can be a lot of prargraphs. This is a strong statement.</strong> They work together when needed. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione eos numquam perspiciatis consectetur dolorum fugit, excepturi deserunt, assumenda quo explicabo exercitationem qui incidunt non dolore asperiores. Voluptatibus quia ipsum magnam!</p>
+    <h3>Third (h3) level headline, too cool for lists:</h3>
+    <ul>
+        <li>Lorem ipsum dolor sit amet.</li>
+        <li>Long line. Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis beatae atque voluptatibus libero ipsam laborum repudiandae consequatur molestias dolor error debitis aspernatur, cupiditate placeat perspiciatis, asperiores quo voluptatem. Ut, accusantium. Lorem ipsum dolor sit amet.</li>
+        <li>Lorem ipsum dolor sit amet.</li>
+    </ul>
+    <p>Can be followed-up by paragraph, easy.</p>
+    <h4>h4! Do you really need level four headline?</h4>
+    <p>Plain paragraph. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione eos numquam perspiciatis consectetur dolorum fugit, excepturi deserunt, assumenda quo explicabo exercitationem qui incidunt non dolore asperiores. Voluptatibus quia ipsum magnam!</p>
+    <h5>h5: I have no idea why and when would anyone use it...</h5>
+    <p>Plain paragraph. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione eos numquam perspiciatis consectetur dolorum fugit, excepturi deserunt, assumenda quo explicabo exercitationem qui incidunt non dolore asperiores. Voluptatibus quia ipsum magnam!</p>
+    
+    <blockquote>
+        <h1>Blockquote!</h1>
+        <p class="text-l">Large leading paragraph. Lorem ipsum dolor, sit amet consectetur adipisicing elit. In accusamus omnis laborum eveniet, ut excepturi.</p>
+        <h2>Second header, aka h2. Use it for semantic purposes.</h2>
+        <p>Plain paragraph. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione eos numquam perspiciatis consectetur dolorum fugit, excepturi deserunt, assumenda quo explicabo exercitationem qui incidunt non dolore asperiores. Voluptatibus quia ipsum magnam!</p>
+        <p><strong>There can be a lot of prargraphs. This is a strong statement.</strong> They work together when needed. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione eos numquam perspiciatis consectetur dolorum fugit, excepturi deserunt, assumenda quo explicabo exercitationem qui incidunt non dolore asperiores. Voluptatibus quia ipsum magnam!</p>
+        <h3>Third (h3) level headline, too cool for lists:</h3>
+        <ul>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Long line. Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis beatae atque voluptatibus libero ipsam laborum repudiandae consequatur molestias dolor error debitis aspernatur, cupiditate placeat perspiciatis, asperiores quo voluptatem. Ut, accusantium. Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+        </ul>
+        <p>Can be followed-up by paragraph, easy.</p>
+        <h4>h4! Do you really need level four headline?</h4>
+        <p>Plain paragraph. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione eos numquam perspiciatis consectetur dolorum fugit, excepturi deserunt, assumenda quo explicabo exercitationem qui incidunt non dolore asperiores. Voluptatibus quia ipsum magnam!</p>
+        <h5>h5: I have no idea why and when would anyone use it...</h5>
+        <p>Plain paragraph. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione eos numquam perspiciatis consectetur dolorum fugit, excepturi deserunt, assumenda quo explicabo exercitationem qui incidunt non dolore asperiores. Voluptatibus quia ipsum magnam!</p>
+
+    </blockquote>
+
+<!-- 
+    <hr />
+
+    <h1>Plain h1, no-class</h1>
+    <p class="text-xxl">Paragraph text-xxl Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, reprehenderit quam pariatur animi, vel quaerat exercitationem nostrum voluptatum aperiam possimus ipsum recusandae nulla explicabo nam nisi? Hic adipisci ea recusandae!</p>
+    <h2>Plain h2, no-class</h2>
+    <h1 class="text-xxs">h1 class text-xxs Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum praesentium a quasi maxime quos sit incidunt quae voluptates nesciunt, facilis minus non iusto corrupti eaque!</h1>
+    <h1 class="text-xs">h1 class text-xs Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum praesentium a quasi maxime quos sit incidunt quae voluptates nesciunt, facilis minus non iusto corrupti eaque!</h1>
+    <h1 class="text-s">h1 class text-s Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum praesentium a quasi maxime quos sit incidunt quae voluptates nesciunt, facilis minus non iusto corrupti eaque!</h1>
+    <h1 class="text-m">h1 class text-m Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum praesentium a quasi maxime quos sit incidunt quae voluptates nesciunt, facilis minus non iusto corrupti eaque!</h1>
+    <h1 class="text-l">h1 class text-l Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum praesentium a quasi maxime quos sit incidunt quae voluptates nesciunt, facilis minus non iusto corrupti eaque!</h1>
+    <h1 class="text-xl">h1 class text-xl Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum praesentium a quasi maxime quos sit incidunt quae voluptates nesciunt, facilis minus non iusto corrupti eaque!</h1>
+    <h1 class="text-xxl">h1 class text-xxl Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum praesentium a quasi maxime quos sit incidunt quae voluptates nesciunt, facilis minus non iusto corrupti eaque!</h1>
+    
+    <p class="text-xxs">Paragraph class text-xxs Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit repellendus laudantium fuga illo hic omnis nisi nostrum amet, vitae voluptates quod ab optio veniam qui? Quos voluptate sed possimus culpa!</p>
+    <p class="text-xs">Paragraph class text-xs Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit repellendus laudantium fuga illo hic omnis nisi nostrum amet, vitae voluptates quod ab optio veniam qui? Quos voluptate sed possimus culpa!</p>
+    <p class="text-s">Paragraph class text-s Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit repellendus laudantium fuga illo hic omnis nisi nostrum amet, vitae voluptates quod ab optio veniam qui? Quos voluptate sed possimus culpa!</p>
+    <p class="text-m">Paragraph class text-m Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit repellendus laudantium fuga illo hic omnis nisi nostrum amet, vitae voluptates quod ab optio veniam qui? Quos voluptate sed possimus culpa!</p>
+    <p>Plain paragraph no class Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit repellendus laudantium fuga illo hic omnis nisi nostrum amet, vitae voluptates quod ab optio veniam qui? Quos voluptate sed possimus culpa!</p>
+    
+    <ul>
+        <li>Lorem ipsum dolor sit amet.</li>
+        <li>Lorem ipsum dolor sit amet.</li>
+        <li>Lorem ipsum dolor sit amet.</li>
+    </ul>
+
+    <ul>
+        <li class="text-xl">Lorem ipsum dolor sit amet.</li>
+        <li class="text-xl">Lorem ipsum dolor sit amet.</li>
+        <li class="text-xl">Lorem ipsum dolor sit amet.</li>
+    </ul>
+    
+    <ol>
+        <li>Lorem ipsum dolor sit amet.</li>
+        <li>Lorem ipsum dolor sit amet.</li>
+        <li>Lorem ipsum dolor sit amet.</li>
+    </ol>
+
+
+    <h2>Plain h2, no-class</h2>
+    <p class="text-xl">XL paragraph Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, aliquid quibusdam? Illum iure non, laborum provident beatae nesciunt est minima architecto. Nam id voluptatibus nesciunt nihil voluptatem qui corporis! Architecto?</p>
+    <p>Plain paragraph no class Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit repellendus laudantium fuga illo hic omnis nisi nostrum amet, vitae voluptates quod ab optio veniam qui? Quos voluptate sed possimus culpa!</p>
+    <h2 class="text-xxs">h2 class text-xxs</h2>
+    <p>Plain paragraph no class Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit repellendus laudantium fuga illo hic omnis nisi nostrum amet, vitae voluptates quod ab optio veniam qui? Quos voluptate sed possimus culpa!</p>
+    <h2 class="text-xs">h2 class text-xs</h2>
+    <p>Plain paragraph no class Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit repellendus laudantium fuga illo hic omnis nisi nostrum amet, vitae voluptates quod ab optio veniam qui? Quos voluptate sed possimus culpa!</p>
+    <h2 class="text-s">h2 class text-s</h2>
+    <p>Plain paragraph no class Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit repellendus laudantium fuga illo hic omnis nisi nostrum amet, vitae voluptates quod ab optio veniam qui? Quos voluptate sed possimus culpa!</p>
+    <h2 class="text-m">h2 class text-m</h2>
+    <p>Plain paragraph no class Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit repellendus laudantium fuga illo hic omnis nisi nostrum amet, vitae voluptates quod ab optio veniam qui? Quos voluptate sed possimus culpa!</p>
+    <h2 class="text-l">h2 class text-l</h2>
+    <p>Plain paragraph no class Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit repellendus laudantium fuga illo hic omnis nisi nostrum amet, vitae voluptates quod ab optio veniam qui? Quos voluptate sed possimus culpa!</p>
+    <h2 class="text-xl">h2 class text-xl</h2>
+    <p>Plain paragraph no class Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit repellendus laudantium fuga illo hic omnis nisi nostrum amet, vitae voluptates quod ab optio veniam qui? Quos voluptate sed possimus culpa!</p>
+    <h2 class="text-xxl">h2 class text-xxl</h2>
+    <p>Plain paragraph no class Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit repellendus laudantium fuga illo hic omnis nisi nostrum amet, vitae voluptates quod ab optio veniam qui? Quos voluptate sed possimus culpa!</p>
+    
+
+    <p class="text-xxs">Paragraph class text-xxs Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit repellendus laudantium fuga illo hic omnis nisi nostrum amet, vitae voluptates quod ab optio veniam qui? Quos voluptate sed possimus culpa!</p>
+    <p class="text-xs">Paragraph class text-xs Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit repellendus laudantium fuga illo hic omnis nisi nostrum amet, vitae voluptates quod ab optio veniam qui? Quos voluptate sed possimus culpa!</p>
+    <p class="text-s">Paragraph class text-s Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit repellendus laudantium fuga illo hic omnis nisi nostrum amet, vitae voluptates quod ab optio veniam qui? Quos voluptate sed possimus culpa!</p>
+    <p class="text-m">Paragraph class text-m Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit repellendus laudantium fuga illo hic omnis nisi nostrum amet, vitae voluptates quod ab optio veniam qui? Quos voluptate sed possimus culpa!</p>
+    <p>Plain paragraph no class Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit repellendus laudantium fuga illo hic omnis nisi nostrum amet, vitae voluptates quod ab optio veniam qui? Quos voluptate sed possimus culpa!</p>
+    
+    <h3 class="text-xxs">h3 class text-xxs</h3>
+    <p>Plain paragraph no class Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit repellendus laudantium fuga illo hic omnis nisi nostrum amet, vitae voluptates quod ab optio veniam qui? Quos voluptate sed possimus culpa!</p>
+    <h3 class="text-xs">h3 class text-xs</h3>
+    <p>Plain paragraph no class Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit repellendus laudantium fuga illo hic omnis nisi nostrum amet, vitae voluptates quod ab optio veniam qui? Quos voluptate sed possimus culpa!</p>
+    <h3 class="text-s">h3 class text-s</h3>
+    <p>Plain paragraph no class Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit repellendus laudantium fuga illo hic omnis nisi nostrum amet, vitae voluptates quod ab optio veniam qui? Quos voluptate sed possimus culpa!</p>
+    <h3 class="text-m">h3 class text-m</h3>
+    <p>Plain paragraph no class Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit repellendus laudantium fuga illo hic omnis nisi nostrum amet, vitae voluptates quod ab optio veniam qui? Quos voluptate sed possimus culpa!</p>
+    <h3 class="text-l">h3 class text-l</h3>
+    <p>Plain paragraph no class Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit repellendus laudantium fuga illo hic omnis nisi nostrum amet, vitae voluptates quod ab optio veniam qui? Quos voluptate sed possimus culpa!</p>
+    <h3 class="text-xl">h3 class text-xl</h3>
+    <p>Plain paragraph no class Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit repellendus laudantium fuga illo hic omnis nisi nostrum amet, vitae voluptates quod ab optio veniam qui? Quos voluptate sed possimus culpa!</p>
+    <h3 class="text-xxl">h3 class text-xxl</h3>
+    <p>Plain paragraph no class Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit repellendus laudantium fuga illo hic omnis nisi nostrum amet, vitae voluptates quod ab optio veniam qui? Quos voluptate sed possimus culpa!</p>
+
+    <hr />
+    
+    <h1>h1 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto vero culpa magnam blanditiis. Nulla, possimus sapiente et error ratione unde beatae quibusdam ab ipsam molestiae numquam, quod minus, harum dicta!</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam inventore ducimus minus minima accusantium quo, explicabo dolores eveniet ipsa quasi fugiat dolorum nisi excepturi eaque, consequatur ut vero! Ducimus, quaerat?</p>
+    <h2>h2 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto vero culpa magnam blanditiis. Nulla, possimus sapiente et error ratione unde beatae quibusdam ab ipsam molestiae numquam, quod minus, harum dicta!</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam inventore ducimus minus minima accusantium quo, explicabo dolores eveniet ipsa quasi fugiat dolorum nisi excepturi eaque, consequatur ut vero! Ducimus, quaerat?</p>
+    <h3>h3 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto vero culpa magnam blanditiis. Nulla, possimus sapiente et error ratione unde beatae quibusdam ab ipsam molestiae numquam, quod minus, harum dicta!</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam inventore ducimus minus minima accusantium quo, explicabo dolores eveniet ipsa quasi fugiat dolorum nisi excepturi eaque, consequatur ut vero! Ducimus, quaerat?</p>
+    <h4>h4 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto vero culpa magnam blanditiis. Nulla, possimus sapiente et error ratione unde beatae quibusdam ab ipsam molestiae numquam, quod minus, harum dicta!</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam inventore ducimus minus minima accusantium quo, explicabo dolores eveniet ipsa quasi fugiat dolorum nisi excepturi eaque, consequatur ut vero! Ducimus, quaerat?</p>
+    <h5>h5 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto vero culpa magnam blanditiis. Nulla, possimus sapiente et error ratione unde beatae quibusdam ab ipsam molestiae numquam, quod minus, harum dicta!</h5>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam inventore ducimus minus minima accusantium quo, explicabo dolores eveniet ipsa quasi fugiat dolorum nisi excepturi eaque, consequatur ut vero! Ducimus, quaerat?</p>
+     -->
+
+
+</body>
+</html>

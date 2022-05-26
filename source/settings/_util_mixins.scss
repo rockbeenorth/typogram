@@ -1,0 +1,75 @@
+// Breakpoints
+
+// Use the top (biggest) value for each breakpoint. They are calculated properly below.
+
+$dev_mobile: 640px;
+$dev_touch: 1152px;
+$dev_desk-m: 1440px;
+$dev_desk-l: 1800px;
+
+@mixin mobile {
+    @media (max-width: #{$dev_mobile}) {
+        @content;
+    }
+}
+
+@mixin touch {
+    @media (min-width: #{$dev_mobile + 1}) and (max-width: #{$dev_touch}) {
+        @content;
+    }
+}
+
+@mixin desktop-m {
+    @media (min-width: #{$dev_touch + 1}) and (max-width: #{$dev_desk-m}) {
+        @content;
+    }
+}
+
+@mixin desktop-l {
+    @media (min-width: #{$dev_desk-m + 1}) and (max-width: #{$dev_desk-l}) {
+        @content;
+    }
+}
+
+@mixin desktop-xl {
+    @media (min-width: #{$dev_desk-l + 1}) {
+        @content;
+    }
+}
+
+// Grids
+
+// Throw in a grid layout (columns).
+
+@mixin grid-layout($colnum : 12, $colGap : 0, $rowGap : 0) {
+    display: grid;
+    grid-template-columns: repeat($colnum, 1fr);
+    column-gap: $colGap;
+    row-gap: $rowGap;
+}
+
+// Dark/Light modes
+
+@mixin dark-mode {
+    @media (prefers-color-scheme: dark) {
+        @content;
+    }
+}
+
+@mixin light-mode {
+    @media (prefers-color-scheme: light) {
+        @content;
+    }
+}
+
+// Typographic shorthands
+
+@mixin text-size($size, $weight : regular) {
+    font-size: var(--text- + $size);
+    line-height: var(--lh- + $size);
+    @if $weight == inherit {
+        // font-weight: inherit;
+    } @else {
+        font-weight: var(--weight- + $weight);
+    }
+}

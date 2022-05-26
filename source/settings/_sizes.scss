@@ -1,0 +1,17 @@
+$size-xs: .25rem; // 4px
+$size-s: .5rem; // 8px
+$size-sm: .75rem; // 12px
+$size-m: 1rem; // 16px
+$size-l: 2rem; // 32px
+$size-xl: 4rem; // 64px
+
+:root {
+    --sxs: #{$size-xs};
+    --ss: #{$size-s};
+    --ssm: #{$size-sm};
+    --sm: #{$size-m};
+    --sl: #{$size-l};
+    --sxl: #{$size-xl};
+}
+
+

@@ -35,7 +35,7 @@ def size_generator() -> dict:
                 scaled_size = check_xceptions(s * values['scale'])
                 residual = scaled_size*PIXEL % 2
                 pixels = scaled_size * PIXEL
-                line_height = values['line-height'] # * scaled_size * PIXEL
+                line_height = values['line-height'] * PIXEL
                 print(f'{name}.{size}\t\t{scaled_size}',
                       '\t\t', f'{pixels}px', '\t\t', residual, '\t\t', f'{line_height}px')
                 result[name][size] = scaled_size
