@@ -91,6 +91,7 @@ h1 {
     letter-spacing: -0.015em;
     @include text-size(xxl, bolder);
     padding-bottom: var(--sm);
+    padding-top: var(--sxl)
 }
 
 h2 {

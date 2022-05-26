@@ -310,6 +310,7 @@ h1 {
   line-height: var(--lh-xxl);
   font-weight: var(--weight-bolder);
   padding-bottom: var(--sm);
+  padding-top: var(--sxl);
 }
 
 h2 {
