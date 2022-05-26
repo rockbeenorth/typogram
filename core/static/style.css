@@ -222,7 +222,7 @@ body {
   --text-s: 0.875rem;
   --lh-s: 1.5;
   --text-m: 1rem;
-  --lh-m: 1.25;
+  --lh-m: 1.5;
   --text-l: 1.5rem;
   --lh-l: 1.15;
   --text-xl: 2rem;
@@ -425,6 +425,26 @@ strong {
   letter-spacing: -0.015em;
 }
 
+.weight-thinner {
+  font-weight: var(--weight-thinner) !important;
+}
+
+.weight-thin {
+  font-weight: var(--weight-thin) !important;
+}
+
+.weight-regular {
+  font-weight: var(--weight-regular) !important;
+}
+
+.weight-bold {
+  font-weight: var(--weight-bold) !important;
+}
+
+.weight-bolder {
+  font-weight: var(--weight-bolder) !important;
+}
+
 .text-uppercase {
   text-transform: uppercase;
   font-size: var(--text-s);
@@ -440,6 +460,10 @@ strong {
 
 .text-narrow {
   max-width: 68ch;
+}
+
+.snippet {
+  font-family: monospace;
 }
 
 body {

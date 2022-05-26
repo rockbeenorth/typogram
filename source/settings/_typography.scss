@@ -22,7 +22,8 @@ $lh-zero: 1;
     --lh-s: #{$lh-loose};
 
     --text-m: 1rem;
-    --lh-m: #{$lh-regular};
+    // --lh-m: #{$lh-regular};
+    --lh-m: #{$lh-loose};
 
     --text-l: 1.5rem;
     --lh-l: #{$lh-compact};
@@ -172,6 +173,23 @@ strong {
     letter-spacing: -0.015em;
 }
 
+.weight-thinner {
+    font-weight: var(--weight-thinner) !important;
+}
+.weight-thin {
+    font-weight: var(--weight-thin) !important;
+}
+
+.weight-regular {
+    font-weight: var(--weight-regular) !important;
+}
+.weight-bold {
+    font-weight: var(--weight-bold) !important;
+}
+.weight-bolder {
+    font-weight: var(--weight-bolder) !important;
+}
+
 .text-uppercase {
     text-transform: uppercase;
     @include text-size(s);
@@ -185,4 +203,10 @@ strong {
 
 .text-narrow {
     max-width: 68ch;
+}
+
+
+.snippet {
+    font-family: monospace;
+
 }
